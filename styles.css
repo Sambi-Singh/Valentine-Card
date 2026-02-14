@@ -1,11 +1,21 @@
+.pangolin-regular {
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
 body{
     background-color: #15173D;
     padding: 20px;
+    margin: 0;
+    height: 100vh;
+  
 }
 
 h1{
     color:#E491C9;
     text-align: center;
+    font-size: 4rem;
 
 }
 
@@ -13,12 +23,20 @@ div{
     background-color: #F1E9E9;
     padding: 10%;
     margin: 10%;
+   
 }
 
-img{
-    width: 100px;
-    height: 100px;
-}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+  }
+  
+  img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
 
 div h2{
     color: #15173D;
@@ -26,45 +44,19 @@ div h2{
     font-size: 2.5rem;
 }
 
+div .paragraph{
+    text-indent: 2em; /* Indent the first line */
+}
 div p {
     color: #15173D;
     text-align: left;
     font-size: 1.2em;
     line-height: 1.6; /* Adjust line spacing */
-    text-indent: 2em; /* Indent the first line */
 }
 
-div p br + span {
-    display: block; /* Treat the text after <br /> as a new block */
-    text-indent: 2em; /* Indent the new line */
-}
 
-.card {
-    width: 300px;
-    height: 200px;
-    margin: 50px auto;
-    background-color: #F1E9E9;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transform-origin: top;
-    transform: perspective(1000px) rotateX(90deg); /* Start closed */
-    transition: transform 0.8s ease-in-out;
-    cursor: pointer;
-  }
   
-.card.open {
-    transform: perspective(1000px) rotateX(0); /* Open the card */
-  }
   
-  .card-content {
-    padding: 20px;
-    display: none; /* Initially hidden */
-  }
-  
-  .card.open .card-content {
-    display: block; /* Show content when the card is open */
-  }
-
 
 @media (max-width: 600px) {
     div {
