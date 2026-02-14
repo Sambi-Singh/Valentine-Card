@@ -3,12 +3,12 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+
 body{
+  
     background-color: #15173D;
     padding: 20px;
-    margin: 0;
-    height: 100vh;
+
   
 }
 
@@ -19,10 +19,15 @@ h1{
 
 }
 
-div{
+.valentineCard{
     background-color: #F1E9E9;
     padding: 10%;
     margin: 10%;
+    border: 10px solid #E491C9;
+    border-radius: 10px;
+    box-shadow: 0 0 100px #982598;
+    
+
    
 }
 
@@ -35,19 +40,20 @@ img {
   }
   
   img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    box-shadow:  0 0 10px #982598;
+    ;
   }
 
-div h2{
+.valentineCard h2{
     color: #15173D;
     text-align: center;
     font-size: 2.5rem;
 }
 
-div .paragraph{
+.valentineCard .paragraph{
     text-indent: 2em; /* Indent the first line */
 }
-div p {
+.valentineCard p {
     color: #15173D;
     text-align: left;
     font-size: 1.2em;
@@ -59,7 +65,7 @@ div p {
   
 
 @media (max-width: 600px) {
-    div {
+  .valentineCard {
         padding: 5%;
         margin: 5%;
     }
