@@ -1,2 +1,2 @@
-# Valentine-Codes
-A short, but fun exercise using basic html and css to make a valentines gift for my lady I love. Based off elementary school Valentines Cipher games. Where students were given a set of codes and had to decipher a message from the codes. The codes ranging  from visuals such as hearts, flowers, etc.
+# Valentine-Card
+A short, but fun exercise using basic html and css to make a valentines card for the lady I love. Features a dynamic background of glowing/moving hearts as well as some adorable gif/images at the end of the message
